@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "eslint-config-airbnb-base"
+  ],
+  "rules": {
+    "max-len": ["error", 120],
+    "no-unused-expressions": [ 0, "off"],
+    "one-var": 0,
+    "class-methods-use-this": 0,
+    "no-useless-constructor": 0,
+    "no-empty-function": 0,
+    "no-use-before-define": 0,
+    "implicit-arrow-linebreak": 0,
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "prefer-destructuring": 0,
+    "no-param-reassign": 0,
+    "linebreak-style" : 0,
+    "no-underscore-dangle": "off",
+    "no-redeclare": "off",
+    "no-case-declarations": "warn",
+    "no-await-in-loop": "off",
+    "no-constant-condition": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": 0,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0
+  },
+  "plugins": [
+    "import"
+  ],
+  "settings":{
+  },
+  "parserOptions": {
+    "ecmaVersion": 13
+  }
+}
